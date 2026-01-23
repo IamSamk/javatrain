@@ -1,4 +1,4 @@
-## javatrain
+## javatrain - IamSamk
 # demo.java is the Hello world program in Java
 # HelloWorld.class is a .class file after running
   '
@@ -9,4 +9,4 @@
         java HelloWorld
     '
 # Methodless.java - No method used all operation performed in main method/function
-# Method.java - Samae thing but used methods
+# Method.java - Same thing but used methods
