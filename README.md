@@ -10,3 +10,6 @@
     '
 # Methodless.java - No method used all operation performed in main method/function
 # Method.java - Same thing but used methods
+
+# You always consider the file name with the class name where main function is present.
+# Once aray is created size cannot be changed.
