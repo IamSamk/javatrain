@@ -1,1 +1,2 @@
 WAP add,sub,mult,div with method , method with param
+

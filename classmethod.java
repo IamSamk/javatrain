@@ -3,8 +3,9 @@ class addition{
         return a + b;
     }
 }
-public class classmethod {
-    private static void main(String[] args) {
+class classmethod{
+
+    public static void main(String[] args) {
      int sum = addition.sum(6, 7);
         System.out.println("Sum: " + sum);   
     }
