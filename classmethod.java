@@ -4,7 +4,6 @@ class addition{
     }
 }
 class classmethod{
-
     public static void main(String[] args) {
      int sum = addition.sum(6, 7);
         System.out.println("Sum: " + sum);   
