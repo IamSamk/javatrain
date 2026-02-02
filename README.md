@@ -13,3 +13,6 @@
 
 # You always consider the file name with the class name where main function is present.
 # Once aray is created size cannot be changed.
+
+
+prob1-7 are class problems
