@@ -1,3 +1,10 @@
 WAP add,sub,mult,div with method , method with param
 
-WAP with non-static variables and methods with return type to display students name and total markss
+WAP with non-static variables and methods with return type to display students name and total marks
+
+
+1.Static variables are associated with class not with objected 
+2.static is one copy.JVM creates one copy per class
+3.Static variables will load/stoned inside method aread while the class is loaded to JVM
+4.Method Area loads the class and associated static variables only once,no matter how many object is created
+5.JVM can initialized Heap but local doesn't because local variables are stored inside stack.
