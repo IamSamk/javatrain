@@ -18,3 +18,7 @@
 prob1-7 are class problems
 
 # new is a a keyword to allot space in heap memory similiar to malloc in C/C++.
+# the syntax for object creation is
+    '
+        class_name object_name = new class_name();
+    '
