@@ -22,3 +22,4 @@ prob1-7 are class problems
     '
         class_name object_name = new class_name();
     '
+day2 = lab2 :]
