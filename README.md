@@ -40,3 +40,18 @@ class demo
         demo d = new demo(); // constructor is called here where x = 0  and s = null
     }
 }
+
+# variable shadowing is a concept where the local variable has the same name as that of the instance variable. In this case, the local variable will shadow the instance variable and we cannot access the instance variable directly. To access the instance variable, we can use the keyword "this".
+
+Example:
+
+class students{
+    int roll_no;
+    string student_name;
+    students(int roll_no,int student_name){
+        roll_no = roll_no; //Here roll_no is the local variable and it is shadowing the instance variable roll_no.
+        student_name = student_name; //Here student_name is the local variable and it is shadowing the instance variable student_name.
+        this.roll_no = roll_no; //Here we are using this keyword to access the instance variable roll_no.
+        this.student_name = student_name; //Here we are using this keyword to access the instance
+    }
+}
