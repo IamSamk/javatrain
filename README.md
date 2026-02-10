@@ -56,3 +56,8 @@ class students{
     }
     students s1= new students(1,"Samk"); //Here we are creating an object of the class students and passing the values to the constructor.
 }
+
+# for(int i = 0; i < 5; i++);
+# {
+#     System.out.println("JAVA");
+# } //Here output JAVA will print once because of the semicolon as semicolon indicates end of statement and the block of code will be executed only once.
