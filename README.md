@@ -54,4 +54,5 @@ class students{
         this.roll_no = roll_no; //Here we are using this keyword to access the instance variable roll_no.
         this.student_name = student_name; //Here we are using this keyword to access the instance
     }
+    students s1= new students(1,"Samk"); //Here we are creating an object of the class students and passing the values to the constructor.
 }
