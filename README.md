@@ -29,3 +29,14 @@ day2 = lab2 :]
 # if no constructor is defined JVM provides a default constructor.
 
 # When an object is created, the constructor is called and it initializes the calues in the object.
+
+Example :
+
+class demo
+{
+    int x;
+    string s;
+    pvsm(-----){
+        demo d = new demo(); // constructor is called here where x = 0  and s = null
+    }
+}
