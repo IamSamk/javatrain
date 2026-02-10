@@ -27,3 +27,5 @@ day2 = lab2 :]
 # Constructor is a special method which is used to initialize the object.
 # It has the same name as that of the class and it does not have any return type
 # if no constructor is defined JVM provides a default constructor.
+
+# When an object is created, the constructor is called and it initializes the calues in the object.
