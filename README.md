@@ -23,3 +23,7 @@ prob1-7 are class problems
         class_name object_name = new class_name();
     '
 day2 = lab2 :]
+
+# Constructor is a special method which is used to initialize the object.
+# It has the same name as that of the class and it does not have any return type
+# if no constructor is defined JVM provides a default constructor.
