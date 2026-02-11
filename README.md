@@ -48,7 +48,7 @@ Example:
 class students{
     int roll_no;
     string student_name;
-    students(int roll_no,int student_name){
+    students(int roll_no,int student_name){         // **This is the constructor of the class students which is used to initialize the values of roll_no and student_name. **
         roll_no = roll_no; //Here roll_no is the local variable and it is shadowing the instance variable roll_no.
         student_name = student_name; //Here student_name is the local variable and it is shadowing the instance variable student_name.
         this.roll_no = roll_no; //Here we are using this keyword to access the instance variable roll_no.
@@ -61,3 +61,5 @@ class students{
 # {
 #     System.out.println("JAVA");
 # } //Here output JAVA will print once because of the semicolon as semicolon indicates end of statement and the block of code will be executed only once.
+
+#
