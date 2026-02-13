@@ -61,5 +61,3 @@ class students{
 # {
 #     System.out.println("JAVA");
 # } //Here output JAVA will print once because of the semicolon as semicolon indicates end of statement and the block of code will be executed only once.
-
-#
