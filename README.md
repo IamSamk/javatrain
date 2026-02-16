@@ -61,3 +61,5 @@ class students{
 # {
 #     System.out.println("JAVA");
 # } //Here output JAVA will print once because of the semicolon as semicolon indicates end of statement and the block of code will be executed only once.
+
+# Scanner(System.in) is used to take input from the user. It is a class in java.util package and it is used to read the input from the console. It has various methods to read different types of input like nextInt(), nextLine(), nextDouble() etc. System.in is an input stream which is used to read the input from the console. It is a standard input stream and it is used to read the input from the keyboard.The other options to put there are System.out and System.err which are used to print the output to the console and to print the error messages to the console respectively.System is class here and in is a field or Static reference variable, out and err of input stream class.
