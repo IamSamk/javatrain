@@ -66,3 +66,24 @@ class students{
 
 
 # sc.close(); is used to close the scanner object and it is a good practice to close the scanner object after use to free up the resources. It is also used to prevent memory leaks. If we do not close the scanner object, it will keep on consuming the memory and it may lead to memory leaks.
+
+#Runtime polymorphism is a concept where the method to be called is determined at runtime. It is also known as dynamic method dispatch. It is achieved through method overriding. Method overriding is a concept where a subclass provides a specific implementation of a method that is already provided by its superclass. The method in the subclass should have the same name, return type and parameters as that of the method in the superclass. When we create an object of the subclass and call the method, the method in the subclass will be called instead of the method in the superclass. This is because at runtime, JVM determines which method to call based on the type of object that is being referred to by the reference variable.
+Example :
+
+class A{
+    void display(){
+        System.out.println("This is class A");
+    }
+}
+class B extends A{
+    void display(){
+        System.out.println("This is class B");
+    }
+}
+class main{
+    public static void main(String[] args){
+        A a = new B(); // Here we are creating an object of class B and referring it to a reference variable of class A. This is called upcasting.
+        a.display(); // Here at runtime, JVM will determine which method to call based on the type of object that is being referred to by the reference variable. Since the reference variable is of type A and it is referring to an object of type B, the method in class B will be called. This is runtime polymorphism.
+        B b = (B)a; // Here we are downcasting the reference variable a to reference variable b of type B. This is called downcasting.
+    }
+}

@@ -10,5 +10,6 @@ public class lab1b {
         }else{
             System.out.println("You are not eligible to vote.");
         }
+        sc.close();
     }
 }
