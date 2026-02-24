@@ -105,3 +105,5 @@ class main{
         a.display(5, 10); // Here at compile time, the method to be called is determined based on the number and type of parameters passed to the method. Since we are passing two parameters of type int, the method with two parameters will be called.
     }
 }
+
+inheritance is a concept where a new class is derived from an existing class. The new class is called subclass or child class and the existing class is called superclass or parent class. The subclass inherits the properties and behaviors of the superclass and it can also have its own properties and behaviors. Inheritance promotes code reusability and it also helps in achieving runtime polymorphism.
