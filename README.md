@@ -87,3 +87,21 @@ class main{
         B b = (B)a; // Here we are downcasting the reference variable a to reference variable b of type B. This is called downcasting.
     }
 }
+
+compile time polymorphism is a concept where the method to be called is determined at compile time. It is also known as static method dispatch. It is achieved through method overloading. Method overloading is a concept where a class has more than one method with the same name but different parameters. The method to be called is determined at compile time based on the number and type of parameters passed to the method.
+For example :
+class A{
+    void display(int a){
+        System.out.println("This is method with one parameter: " + a);
+    }
+    void display(int a, int b){
+        System.out.println("This is method with two parameters: " + a + " and " + b);
+    }
+}
+class main{
+    public static void main(String[] args){
+        A a = new A();
+        a.display(5); // Here at compile time, the method to be called is determined based on the number and type of parameters passed to the method. Since we are passing one parameter of type int, the method with one parameter will be called.
+        a.display(5, 10); // Here at compile time, the method to be called is determined based on the number and type of parameters passed to the method. Since we are passing two parameters of type int, the method with two parameters will be called.
+    }
+}
