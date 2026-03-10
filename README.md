@@ -107,3 +107,36 @@ class main{
 }
 
 inheritance is a concept where a new class is derived from an existing class. The new class is called subclass or child class and the existing class is called superclass or parent class. The subclass inherits the properties and behaviors of the superclass and it can also have its own properties and behaviors. Inheritance promotes code reusability and it also helps in achieving runtime polymorphism.
+
+
+# Consider this roject structure
+
+Project
+|-- src
+    | -- Package1
+        |-- Class1.java
+        |-- Class2.java
+    | -- Package2
+        |-- Class3.java
+        |-- Class4.java
+
+# In this project structure, we have two packages Package1 and Package2. Each package contains two classes. To access the classes in the other package, we need to import the package using the import statement. For example, if we want to access Class3 in Package2 from Class1 in Package1, we need to import Package2 in Class1 using the following statement:
+    '
+        import Package2.Class3;
+    '
+
+If you want to import all the classes in Package2, you can use the following statement:
+    '
+        import Package2.*;
+    '
+
+For objects
+package1.class1 obj = new package1.class1();
+
+# Access modifiers are used to restrict the access of the members of a class. There are four types of access modifiers in Java:
+1. public: The members of a class declared as public can be accessed from anywhere in the program.
+2. private: The members of a class declared as private can only be accessed within the same class.
+3. protected: The members of a class declared as protected can be accessed within the same package and also by the subclasses in other packages.
+4. default: The members of a class declared without any access modifier are called default members and they can be accessed within the same package only.
+
+
