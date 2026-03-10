@@ -146,7 +146,11 @@ Imagine c1 is a protected class and the code is like
 Package package1;
 import package1.c1; // A specific class is imported here
 
-class c2 extends c1
+class c2 extends c1 
 {
     // code
 }
+
+
+# for classes with final they cannot be imported and cannot be extended
+
