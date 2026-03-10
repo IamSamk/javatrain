@@ -139,4 +139,14 @@ package1.class1 obj = new package1.class1();
 3. protected: The members of a class declared as protected can be accessed within the same package and also by the subclasses in other packages.
 4. default: The members of a class declared without any access modifier are called default members and they can be accessed within the same package only.
 
+# For a protected class
 
+Imagine c1 is a protected class and the code is like
+
+Package package1;
+import package1.c1; // A specific class is imported here
+
+class c2 extends c1
+{
+    // code
+}
