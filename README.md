@@ -190,3 +190,23 @@ These are the classes which have at least one abstract method. An abstract metho
 
 # If there is an abstract class and concrete class then the class will be abstract class. If there is neither it will be concrete class. If there is only abstract method then it will be abstract class. If there is only concrete method then it will be concrete class.
 
+Consider a code block where there is an abstract class A with two abstract methods void print1 and void print 2 and a normal void print3 which is not abstract.
+Now a class B extends A and there is a method called void print1 with code in the body of the method. So what will be the type of class B?
+
+Code :
+
+abstract class A {
+    abstract void print1();
+    abstract void print2();
+    void print3() {
+        System.out.println("This is a concrete method in abstract class A");
+    }
+}
+
+class B extends A {
+    void print1() {
+        System.out.println("This is the implementation of print1 method in class B");
+    }
+}
+
+So class B will be an abstract class because it has one abstract method print2 which is not implemented in class B. If we want to make class B a concrete class, we need to implement the print2 method in class B.
