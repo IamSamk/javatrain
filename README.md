@@ -154,3 +154,36 @@ class c2 extends c1
 
 # for classes with final they cannot be imported and cannot be extended
 
+#Encapsulation is a concept where the data members of a class are hidden from the outside world and can only be accessed through the member functions of the class. It is achieved through access modifiers. The data members of a class are declared as private and the member functions are declared as public. This way, we can control the access to the data members and we can also protect the data from unauthorized access.
+
+Example:
+
+class EncapsulationExample {
+    private int data; // data member is declared as private
+
+    public void setData(int data) { // setter method to set the value of data
+        this.data = data;
+    }
+
+    public int getData() { // getter method to get the value of data
+        return data;
+    }
+}
+
+class main {
+    public static void main(String[] args) {
+        EncapsulationExample obj = new EncapsulationExample();
+        obj.setData(10); // setting the value of data using setter method
+        System.out.println("The value of data is: " + obj.getData()); // getting the value of data using getter method
+    }
+}
+
+
+# Concrete method
+
+These are the methods which have a body and they are implemented in the class. They can be called using the object of the class.
+Concrete class is a class which has at least one concrete method. It can be instantiated and we can create objects of it.
+
+# Abstract class
+
+These are the classes which have at least one abstract method. An abstract method is a method which is declared without any implementation. Abstract classes cannot be instantiated and we cannot create objects of it. They are used to achieve abstraction in Java.
