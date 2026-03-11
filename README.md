@@ -187,3 +187,6 @@ Concrete class is a class which has at least one concrete method. It can be inst
 # Abstract class
 
 These are the classes which have at least one abstract method. An abstract method is a method which is declared without any implementation. Abstract classes cannot be instantiated and we cannot create objects of it. They are used to achieve abstraction in Java.
+
+# If there is an abstract class and concrete class then the class will be abstract class. If there is neither it will be concrete class. If there is only abstract method then it will be abstract class. If there is only concrete method then it will be concrete class.
+
