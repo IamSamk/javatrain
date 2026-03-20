@@ -211,3 +211,11 @@ class B extends A {
 
 So class B will be an abstract class because it has one abstract method print2 which is not implemented in class B. If we want to make class B a concrete class, we need to implement the print2 method in class B.
 [print1 in class B overrides print1 in class A but print2 is not implemented in class B so class B is an abstract class]
+
+## UML for Java
+
+Private class : -
+Public class : +
+Protected class : #
+Default class : ~
+Interface : <<interface>>
