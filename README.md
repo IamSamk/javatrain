@@ -24,7 +24,7 @@ prob1-7 are class problems
     '
 day2 = lab2 :]
 
-# Constructor is a special method which is used to initialize the object.
+# Constructor is a special method which is used to initialize variables.The types are parameterized, non-parameterized and default constructor. It is called when an object of the class is created. It is used to initialize the values in the object. It is a special method because it has some special properties. It is called when an object of the class is created and it initializes the values in the object. It is also used to provide the initial values to the instance variables of the class. It is also used to perform any other initialization tasks that are required for the object.
 # It has the same name as that of the class and it does not have any return type
 # if no constructor is defined JVM provides a default constructor.A default constructor is a constructor which does not take any parameters and it initializes the instance variables with default values. For example, if we have an instance variable of type int, it will be initialized with 0 and if we have an instance variable of type String, it will be initialized with null.
 
@@ -212,6 +212,21 @@ class B extends A {
 So class B will be an abstract class because it has one abstract method print2 which is not implemented in class B. If we want to make class B a concrete class, we need to implement the print2 method in class B.
 [print1 in class B overrides print1 in class A but print2 is not implemented in class B so class B is an abstract class]
 
+# ENCAPSULATION
+Encapsulation is a concept where the data members of a class are hidden from the outside world and can only be accessed through the member functions of the class. It is achieved through access modifiers. The data members of a class are declared as private and the member functions are declared as public. This way, we can control the access to the data members and we can also protect the data from unauthorized access.
+Example:
+class EncapsulationExample {
+    private int data; // data member is declared as private
+
+    public void setter(int data) { // setter method to set the value of data
+        this.data = data;
+    }
+
+    public int getter() { // getter method to get the value of data
+        return data;
+    }
+}
+
 ## UML for Java
 
 Private class : -
@@ -219,3 +234,7 @@ Public class : +
 Protected class : #
 Default class : ~
 Interface : <<interface>>
+
+
+Dotted lines mean Realisation and dependency
+Solid lines with closed arrowhead mean inheritance
